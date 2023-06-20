@@ -1,0 +1,4 @@
+<launch>
+  <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+  <node name="pubsub_test.py" pkg="pubsum_test.py" type="pubsum_test.py" />
+</launch>
